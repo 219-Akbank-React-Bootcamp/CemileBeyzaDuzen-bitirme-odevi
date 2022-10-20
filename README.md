@@ -1,46 +1,24 @@
-# Getting Started with Create React App
+## Patika & Akbank React Bootcamp Bitirme Projesi 
+#### Patika & Akbank React Bootcamp final projesi Kanban board uygulaması.
+### 🤖  Kullanılan Teknolojiler
+-React
+-Typescript
+-Redux
+-MUI
+-Tailwind
+-react-beautiful-dnd
+-axios
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### 📎 Kayıt ve Giriş 
+Kullanıcı sisteme kayıtlı değil ise register ekranından sisteme kayıt olabilir. Kullanıcı sisteme kayıtlı ise login ekranından kullanıcı adı ve şifresi ile sisteme kayıt olabilir.
 
-## Available Scripts
+#### 📎 Board ve Card ekleme,silme,güncelleme
+Kullanıcı giriş yaptıktan sonra daha önce oluştruduğu card var ise board listeleme ekranında listenir yoksa yine bu ekrandan board oluşturabilir.Boardların detayında card ekleme,silme ve güncelleme işlemlerini yapabilir. Aynı zamanda burada üst bar'da bulunan alandan checklist ekleyebilir ve içerisine itemlar ekleyebilirsiniz. Eklenen itemlera güncelleme ve silme işlemleri yapmanızın yanı sıra checkboxlar yardımı ile işaretleme yapabilir ve card'larda görebilirsiniz.
 
-In the project directory, you can run:
+#### 📎 Drag & Drop
+Board listeleme ekranımızda ana cardlara yatay yönde sürükle bırak işlemi ve ana cardların içerisinde bulunan cardlara dikey yönde sürükle bırak işlemi yapabilirsiniz.
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1725" alt="Screen Shot 2022-10-20 at 22 43 00" src="https://user-images.githubusercontent.com/75903805/197057188-f53799ee-fc9d-42cf-8018-f58a3d3533fc.png">
+<img width="1725" alt="Screen Shot 2022-10-20 at 22 41 24" src="https://user-images.githubusercontent.com/75903805/197057202-d5cfae66-47a0-4355-a523-021dd8c56aef.png">
+<img width="1725" alt="Screen Shot 2022-10-20 at 22 40 42" src="https://user-images.githubusercontent.com/75903805/197057206-dad7f9b5-cdcb-433b-9db7-61760779c4ea.png">
+<img width="1725" alt="Screen Shot 2022-10-20 at 22 40 22" src="https://user-images.githubusercontent.com/75903805/197057215-7987ecd4-a451-486c-a0f9-e823febe47e0.png">
